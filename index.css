@@ -1,0 +1,63 @@
+/* Text shadow for heading */
+.text-shadow {
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+/* Color and background color */
+.color-example .color-text {
+  color: #e74c3c;
+}
+
+.color-example .background-text {
+  background-color: #3498db;
+  color: white;
+  padding: 5px;
+}
+
+/* Text styles */
+.text-styles .italic-text {
+  font-style: italic;
+}
+
+.text-styles .uppercase-text {
+  text-transform: uppercase;
+}
+
+.text-styles .shadow-text {
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+/* Box shadow */
+.box-shadow-example .box-shadow {
+  width: 200px;
+  padding: 20px;
+  margin: 20px 0;
+  background-color: #ecf0f1;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+/* Pseudo-elements */
+.pseudo-elements .first-letter-example::first-letter {
+  font-size: 2em;
+  font-weight: bold;
+  color: #8e44ad;
+}
+
+.pseudo-elements .placeholder-example::placeholder {
+  color: #95a5a6;
+  font-style: italic;
+}
+
+.pseudo-elements .after-before-example::before {
+  content: 'Before: ';
+  color: #e67e22;
+  font-weight: bold;
+}
+
+.pseudo-elements .after-before-example::after {
+  content: ' :After';
+  color: #e67e22;
+  font-weight: bold;
+}
